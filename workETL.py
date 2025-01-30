@@ -263,8 +263,8 @@ users_cleaned_final.to_csv('users_data_cleaned.csv',
                            index = False)
 
 #Confirm that the data was written to a CSV file.
-pd.read_csv('users_data_cleaned.csv').head()
-pd.read_csv('users_data_cleaned.csv').info()
+#pd.read_csv('users_data_cleaned.csv').head()
+#pd.read_csv('users_data_cleaned.csv').info()
 
 
 #--------------------------------------------------------------------------
